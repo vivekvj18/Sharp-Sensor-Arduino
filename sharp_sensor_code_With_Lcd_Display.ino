@@ -9,10 +9,6 @@ LiquidCrystal lcd(14,15,16,17,18,19);*/
 
 void setup() {
   Serial.begin(9600);
-
-  /*lcd.begin(16,2);
-  lcd.clear();*/
-  pinMode(A0,INPUT);
   
    
   // put your setup code here, to run once:
